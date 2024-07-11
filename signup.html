@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pwww</title>
+    <link rel="stylesheet" href="style7.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    
+    <!-- Navbar Section -->
+    <header>
+    <nav class="navbar" id="navbar">
+      <div class="navcontainer">
+        <a href="#home" id="logo">pwww</a>
+        <div class="navtoggle" id="menu">
+          <span class="bar"></span> 
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navmenu">
+            <li class="navitem">
+              <a href="PWWW2.html" class="navlink" id="home-page">Home</a>
+            </li>
+            <li class="navitem">
+              <a href="places.html" class="navlink" id="about-page">Places</a>
+            </li>
+            <li class="navitem">
+              <a href="journal.html" class="navlink" id="about-page">Journal</a>
+            </li>
+            <li class="navitem">
+              <a href="PWWW2.html" class="navlink" id="services-page"
+                >About</a
+              >
+            </li>
+            <li class="navitem">
+              <a href="login.html" class="navlink" id="login-page">Log In</a>
+            </li>
+  
+          </ul>
+      </div>
+    </nav>
+    </header>
+
+        <div class="container">
+            <form class="form" id="login">
+                <h1 class="title">LOGIN</h1>
+                <div class="message message--error">Incorrect Username/Password</div>
+                <div class="input-group">
+                    <input type="text" class = "input" autofocus placeholder="Enter Username or Email">
+                    <div class="input-error-message">ERROR</div>
+                </div>
+                <div class="input-group">
+                    <input type="password" class = "input" autofocus placeholder="Password">
+                    <div class="input-error-message">ERROR</div>
+                </div>
+                <button class="btn" type="submit">Login</button>
+                <p class="text">
+                    <a href="#" class="flink">Forgot password?</a>
+                </p>
+                <p class="text">
+                    <a id="createnew" class="flink" id="linksignup">Don't have account? Create account.</a>
+                </p>
+            </form>
+
+            <form class="form hidden" id="signup">
+              <h1 class="title">Create Account</h1>
+              <div class="message message--error"></div>
+              <div class="input-group">
+                  <input type="text" class = "input" autofocus placeholder="Enter Username">
+                  <div class="input-error-message"></div>
+              </div>
+
+              <div class="input-group">
+                <input type="text" class = "input" autofocus placeholder="Email Address">
+                <div class="input-error-message"></div>
+            </div>
+
+              <div class="input-group">
+                  <input type="password" class = "input" autofocus placeholder="Password">
+                  <div class="input-error-message"></div>
+              </div>
+
+              <div class="input-group">
+                <input type="password" class = "input" autofocus placeholder="Confirm Password">
+                <div class="input-error-message"></div>
+            </div>
+
+              <button class="btn" type="submit">Login</button>
+              <p class="text">
+                  <a href="#" class="flink" id="linklogin">Already have an account? Login.</a>
+              </p>
+          </form>
+        </div>
+
+        
+ 
+
+    <script src="app.js"></script>
+    <script src="pwww.js"></script>
+    </body>
+    </html>

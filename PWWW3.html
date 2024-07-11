@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pwww</title>
+    <link rel="stylesheet" href="style8.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    
+    <!-- Navbar Section -->
+    <header>
+      <nav class="navbar" id="navbar">
+        <div class="navcontainer">
+          <a href="#" id="logo">pwww</a>
+          <div class="navtoggle" id="menu">
+            <span class="bar"></span> 
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navmenu">
+            <li class="navitem">
+              <a href="PWWW2.html" class="navlink" id="home-page">Home</a>
+            </li>
+            <li class="navitem">
+              <a href="places.html" class="navlink" id="about-page">Places</a>
+            </li>
+            <li class="navitem">
+              <a href="journal.html" class="navlink" id="about-page">Journal</a>
+            </li>
+            <li class="navitem">
+              <a href="PWWW2.html" class="navlink" id="services-page"
+                >About</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+  </header>
+
+  
+
+<section class="places" id="places">
+
+  <h1 class="heading"> places </h1>
+
+  <div class="box-container">
+
+    <div class="box" id="place1">
+      <img src="place1.png" class="placeimage1" alt="" />
+      <h3>sky garden cafe</h3>
+      <div class="loc">friendship highway, angeles city, pampanga</div>
+      <div class="icons">
+        <button type="submit" onclick="openPopup();" class="fas fa-plus"></button>
+        <a href="#" class="fas fa-info"></a>
+        <a href="#" class="fas fa-heart"></a>
+      </div>
+
+      <div class="popup" id="popup">
+          <img src="place2.png"  alt="" />
+          <h3 class="headpop">ICANNOTSEE</h3>
+          <div class="locpop">lumot lake in cavinti, laguna</div>
+          <div class="icons">
+            <button type="submit" onclick="show();" class="fas fa-plus"></button>
+            <a href="#" class="fas fa-info"></a>
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+        </div>
+      </div>
+
+
+    
+
+    <div class="box" id="place2">
+      <img src="place2.png"  class="placeimage2" alt="" />
+      <h3>5558 campsite</h3>
+      <div class="loc">lumot lake in cavinti, laguna</div>
+      <div class="icons">
+        <a href="#popup" onclick="addPlace(place2)" class="fas fa-plus"></a>
+        <a href="#" class="fas fa-info"></a>
+        <a href="#" class="fas fa-heart"></a>
+      </div>
+      <div class="closebtn"></div>
+    </div>
+
+    <div class="box" id="place3">
+      <img src="place3.png"  class="placeimage3" alt="" />
+      <h3>dreamplay</h3>
+      <div class="loc">aseana ave, tambo, parañaque, metro manila</div>
+      <div class="icons">
+        <a href="#" onclick="addPlace(place3)" class="fas fa-plus"></a>
+        <a href="#" class="fas fa-info"></a>
+        <a href="#" class="fas fa-heart"></a>
+      </div>
+    </div>
+
+    <div class="box" id="place4">
+      <img src="place4.png" class="placeimage4" alt="" />
+      <h3>funhan mart</h3>
+      <div class="loc">the forum, federacion drive, corner 7th ave, taguig, metro manila</div>
+      <div class="icons">
+        <a href="#" onclick="addPlace(place4)" class="fas fa-plus"></a>
+        <a href="#" class="fas fa-info"></a>
+        <a href="#" class="fas fa-heart"></a>
+      </div>
+    </div>
+
+    <div class="box" id="place5">
+      <img src="place5.png"  class="placeimage5" alt="" />
+      <h3>the bear cave</h3>
+      <div class="loc">one paseo, ma paseo saturnino, cebu city, cebu</div>
+      <div class="icons">
+        <a href="#" onclick="addPlace(place5)" class="fas fa-plus"></a>
+        <a href="#" class="fas fa-info"></a>
+        <a href="#" class="fas fa-heart"></a>
+      </div>
+    </div>
+
+    <div class="box" id="place6">
+      <img src="place6.png" class="placeimage6" alt="" />
+      <h3>the library cafe</h3>
+      <div class="loc">ramon magsaysay building, roxas blvd, malate, manila, 1004 metro manila</div>
+      <div class="icons">
+        <a href="#"  onclick="addPlace(place6)" class="fas fa-plus"></a>
+        <a href="#" class="fas fa-info"></a>
+        <a href="#" class="fas fa-heart"></a>
+      </div>
+    </div>
+
+     <div class="box" id="place7">
+      <img src="place7.png"  class="placeimage7" alt="" />
+      <h3>seascape village</h3>
+      <div class="loc">atang dela rama, pasay, metro manila</div>
+      <div class="icons">
+        <a href="#" onclick="addPlace(place7)" class="fas fa-plus"></a>
+        <a href="#" class="fas fa-info"></a>
+        <a href="#" class="fas fa-heart"></a>
+      </div>
+    </div>
+
+
+     <div class="box" id="place8">
+      <img src="place8.png" class="placeimage8" alt="" />
+      <h3>dream lab</h3>
+      <div class="loc">ayala malls, circuit makati, makati</div>
+      <div class="icons">
+        <a href="#" onclick="addPlace(place8)" class="fas fa-plus"></a>
+        <a href="#" class="fas fa-info"></a>
+        <a href="#" class="fas fa-heart"></a>
+      </div>
+    </div>
+
+
+     <div class="box" id="place9">
+      <img src="place9.png" class="placeimage9" alt="" />
+      <h3>sky deck view bar</h3>
+      <div class="loc">The Bayleaf, Muralla St, Intramuros, Manila, 1002 Metro Manila</div>
+      <div class="icons">
+        <a href="#" onclick="addPlace(place9)" class="fas fa-plus"></a>
+        <a href="#" class="fas fa-info"></a>
+        <a href="#" class="fas fa-heart"></a>
+      </div>
+    </div>
+
+
+     <div class="box" id="place10">
+      <img src="place10.png" class="placeimage10" alt="" />
+      <h3>royalk indian curry house</h3>
+      <div class="loc">5345 General Luna, Makati, 1208 Metro Manila</div>
+      <div class="icons">
+        <a href="#" onclick="addPlace(place10)" class="fas fa-plus"></a>
+        <a href="#" class="fas fa-info"></a>
+        <a href="#" class="fas fa-heart"></a>
+      </div>
+    </div>
+
+
+     <div class="box" id="place11">
+      <img src="place11.png" class="placeimage11" alt="" />
+      <h3>hub: make lab</h3>
+      <div class="loc">First United Building, 413 Escolta St, Binondo, Manila, 1006 Metro Manila</div>
+      <div class="icons">
+        <a href="#" onclick="addPlace(place11)" class="fas fa-plus"></a>
+        <a href="#" class="fas fa-info"></a>
+        <a href="#" class="fas fa-heart"></a>
+      </div>
+    </div>
+
+
+     <div class="box" id="place12">
+      <img src="place12.png" class="placeimage12" alt="" />
+      <h3>limitless</h3>
+      <div class="loc">Newport Blvd, Pasay, 1309 Metro Manila</div>
+      <div class="icons">
+        <a href="#" onclick="addPlace(place12)" class="fas fa-plus"></a>
+        <a href="#" class="fas fa-info"></a>
+        <a href="#" class="fas fa-heart"></a>
+      </div>
+    </div>
+
+
+     <div class="box" id="place13">
+      <img src="place13.png" class="placeimage13" alt="" />
+      <h3>the studio dance club</h3>
+      <div class="loc"> Brgy, LPL Tower Condominium, 112 Legazpi Street, Legazpi Village, Makati, 1229 Metro Manila</div>
+      <div class="icons">
+        <a href="#" onclick="addPlace(place13)" class="fas fa-plus"></a>
+        <a href="#" class="fas fa-info"></a>
+        <a href="#" class="fas fa-heart"></a>
+      </div>
+    </div>
+
+
+     <div class="box" id="place14">
+      <img src="place14.png" class="placeimage14" alt="" />
+      <h3>sneaky seoul</h3>
+      <div class="loc">34 Scout Torillo, cor Scout Limbaga Ext, Quezon City, 1103 Metro Manila</div>
+      <div class="icons">
+        <a href="#" onclick="addPlace(place14)" class="fas fa-plus"></a>
+        <a href="#" class="fas fa-info"></a>
+        <a href="#" class="fas fa-heart"></a>
+      </div>
+    </div>
+
+
+     <div class="box" id="place15">
+      <img src="place15.png" class="placeimage15" alt="" />
+      <h3>good pastry cafe</h3>
+      <div class="loc"> 53 Connecticut, San Juan, Metro Manila</div>
+      <div class="icons">
+        <a href="#" onclick="addPlace(place15)" class="fas fa-plus"></a>
+        <a href="#" class="fas fa-info"></a>
+        <a href="#" class="fas fa-heart"></a>
+      </div>
+    </div>
+  </div>
+
+
+
+  </section>
+
+
+
+  <script src="app.js"></script>
+  <script src="pwww.js"></script>
+    </body>
+    </html>
+

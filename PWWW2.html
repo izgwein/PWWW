@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pwww</title>
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    
+    <!-- Navbar Section -->
+    <header>
+    <nav class="navbar" id="navbar">
+      <div class="navcontainer">
+        <a href="#" id="logo">pwww</a>
+        <div class="navtoggle" id="menu">
+          <span class="bar"></span> 
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navmenu">
+          <li class="navitem">
+            <a href="PWWW2.html" class="navlink" id="home-page">Home</a>
+          </li>
+          <li class="navitem">
+            <a href="places.html" class="navlink" id="about-page">Places</a>
+          </li>
+          <li class="navitem">
+            <a href="journal.html" class="navlink" id="about-page">Journal</a>
+          </li>
+          <li class="navitem">
+            <a href="#about" class="navlink" id="services-page"
+              >About</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 text-center ml-0 pt-2 mt-2">
+                <div class="home_text wow fadeInUp animated">
+                    <h1 class="head" style="font-size: 5vw;">places <br> we won't <br> walk</h1>
+                    <p class="caphead">"we will smile to end each day <br>in places we won't walk."</p>                     
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<section class="about" id="about">
+  <h1 class="heading">about <span>pwww</span></h1>
+
+  <div class="row">
+    <div class="cont">
+    <div class="image">
+      <img src="pwww.png" alt="">
+    </div>
+    <div class="song">
+      <button onclick="Play()" class="fas fa-play" id="play"></button>
+      <audio src="pwww.mp3" id="music"></audio>
+    </div>
+    </div>
+
+    <div class="content">
+      <h3>what is pwww?</h3>
+      <p>places we won't walk is a song by bruno major that inspired me to make this website. it contains places i have seen from different social media platform that i would like to go to. </p>
+    </div>
+  </div>
+</section>
+
+<section class="places" id="places">
+
+  <h1 class="heading"> places </h1>
+
+  <div class="container swiper">
+    <div class="slide-container">
+        <div class="card-wrapper swiper-wrapper">
+
+
+            <div class="card swiper-slide">
+                <div class="image-box">
+                    <img src="place1.png" alt="" />
+                </div>
+                <h3>sky garden cafe</h3>
+                <div class="loc">friendship highway, angeles city, pampanga</div>
+                <div class="icons">
+                  <a href="#" class="fas fa-plus"></a>
+                  <a href="#" class="fas fa-info"></a>
+                  <a href="#" class="fas fa-heart"></a>
+                </div>
+            </div>
+
+            <div class="card swiper-slide">
+                <div class="image-box">
+                    <img src="place2.png" alt="" />
+                </div>
+                <h3>5558 campsite</h3>
+                <div class="loc">lumot lake in cavinti, laguna</div>
+                <div class="icons">
+                    <a href="#" class="fas fa-plus"></a>
+                    <a href="#" class="fas fa-info"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    </div>
+            </div>
+
+            <div class="card swiper-slide">
+                <div class="image-box">
+                    <img src="place3.png" alt="" />
+                </div>
+                <h3>dreamplay</h3>
+                <div class="loc">aseana ave, tambo, parañaque, metro manila</div>
+                <div class="icons">
+                  <a href="#" class="fas fa-plus"></a>
+                  <a href="#" class="fas fa-info"></a>
+                  <a href="#" class="fas fa-heart"></a>
+                </div>
+            </div>
+
+            <div class="card swiper-slide">
+                <div class="image-box">
+                    <img src="place4.png" alt="" />
+                </div>
+                <h3>funhan mart</h3>
+                <div class="loc">the forum, federacion drive, corner 7th ave, taguig, metro manila</div>
+                <div class="icons">
+                  <a href="#" class="fas fa-plus"></a>
+                  <a href="#" class="fas fa-info"></a>
+                  <a href="#" class="fas fa-heart"></a>
+                </div>
+            </div>
+
+            <div class="card swiper-slide">
+                <div class="image-box">
+                    <img src="place5.png" alt="" />
+                </div>
+                <h3>the bear cave</h3>
+                <div class="loc">one paseo, ma paseo saturnino, cebu city, cebu</div>
+                <div class="icons">
+                  <a href="#" class="fas fa-plus"></a>
+                  <a href="#" class="fas fa-info"></a>
+                  <a href="#" class="fas fa-heart"></a>
+                </div>
+            </div>
+
+            <div class="card swiper-slide">
+                <div class="image-box">
+                    <img src="place6.png" alt="" />
+                </div>
+                <h3>the library cafe</h3>
+                <div class="loc">ramon magsaysay building, roxas blvd, malate, manila, 1004 metro manila</div>
+                <div class="icons">
+                  <a href="#" class="fas fa-plus"></a>
+                  <a href="#" class="fas fa-info"></a>
+                  <a href="#" class="fas fa-heart"></a>
+                </div>
+              </div>
+
+              <div class="card swiper-slide">
+                <div class="image-box">
+                    <img src="place6.png" alt="" />
+                </div>
+                <a href="places.html" class="btn">see more</a>
+              </div>
+
+            </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+            </div>
+
+ </section>
+
+ <script src="app.js"></script>
+ <script src="swiper-bundle.min.js"></script>
+ <script src="pwww.js"></script>
+ </body>
+ </html>
+    
